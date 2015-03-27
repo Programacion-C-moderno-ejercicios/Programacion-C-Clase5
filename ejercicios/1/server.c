@@ -11,8 +11,8 @@
 
 int main(int argc, char *argv[])
 {
-	char* msg = "Hola mundo!!!\n";
-
+	char* msg =
+		"<!DOCTYPE html>\n<html> <head> <title> Hello World Demonstration Document </title> </head> <body> <h1>  Hello, World!  </h1> </body> </html>";
 	struct sockaddr_in dest;
 	struct sockaddr_in serv;
 	int server;
